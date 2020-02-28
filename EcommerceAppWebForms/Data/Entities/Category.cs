@@ -10,6 +10,12 @@ namespace EcommerceAppWebForms.Data.Entities
     {
         public int Id { get; set; }
         [Required]
+        [StringLength(maximumLength:30,MinimumLength =3)]
         public string Name { get; set; }
+        public ICollection<SubCategory> SubCategories { get; set; }
+        public Category()
+        {
+            SubCategories = new HashSet<SubCategory>();
+        }
     }
 }
