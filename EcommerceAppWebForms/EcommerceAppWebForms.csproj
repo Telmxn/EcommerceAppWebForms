@@ -177,9 +177,12 @@
       <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
     <Compile Include="Data\Entities\Category.cs" />
+    <Compile Include="Data\Entities\Discount.cs" />
     <Compile Include="Data\Entities\Marka.cs" />
     <Compile Include="Data\Entities\Model.cs" />
     <Compile Include="Data\Entities\Product.cs" />
+    <Compile Include="Data\Entities\ProductProperty.cs" />
+    <Compile Include="Data\Entities\Property.cs" />
     <Compile Include="Data\Entities\Review.cs" />
     <Compile Include="Data\Entities\SubCategory.cs" />
     <Compile Include="Data\Entities\User.cs" />
