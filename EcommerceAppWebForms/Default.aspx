@@ -2,19 +2,19 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
-    <div class="row" style="margin-top:35px;">
+    <div class="row" style="margin-top:65px;">
         <div class="col-md-4">
             <div>
                 <label for="MainContent_txbx_username">Please Enter UserName:</label>
-                <asp:TextBox ID="txbx_username" runat="server" CssClass="form-control"></asp:TextBox>
+                <input ID="Username" type="text" class="form-control" name="Username"/>
             </div>
             <div>
                 <label for="MainContent_txbx_email">Please Enter Email:</label>
-                <asp:TextBox ID="txbx_email" runat="server" CssClass="form-control"></asp:TextBox>
+                <input ID="Email" type="email" class="form-control" name="Email" />
             </div>
             <div>
                 <label for="MainContent_txbx_password">Please Enter Password:</label>
-                <asp:TextBox ID="txbx_password" runat="server" CssClass="form-control"></asp:TextBox>
+                <input ID="Password" type="password" class="form-control" name="Password" />
             </div>
             <button ID="btn_register" runat="server" class="btn btn-success" style="margin:10px 100px">Register</button>
         </div>
