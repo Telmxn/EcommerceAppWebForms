@@ -14,5 +14,10 @@ namespace EcommerceAppWebForms.Data.Entities
         public string Name { get; set; }
         public Category category { get; set; }
         public int CategoryId { get; set; }
+        public ICollection<Marka> Markas { get; set; }
+        public SubCategory()
+        {
+            Markas = new HashSet<Markas>();
+        }
     }
 }

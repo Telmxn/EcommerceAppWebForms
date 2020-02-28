@@ -17,5 +17,7 @@ namespace EcommerceAppWebForms.Data.Entities
         {
             Models = new HashSet<Model>();
         }
+        public SubCategory SubCategory { get; set; }
+        public int SubCategoryId { get; set; }
     }
 }

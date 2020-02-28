@@ -179,7 +179,10 @@
     <Compile Include="Data\Entities\Category.cs" />
     <Compile Include="Data\Entities\Marka.cs" />
     <Compile Include="Data\Entities\Model.cs" />
+    <Compile Include="Data\Entities\Product.cs" />
+    <Compile Include="Data\Entities\Review.cs" />
     <Compile Include="Data\Entities\SubCategory.cs" />
+    <Compile Include="Data\Entities\User.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
