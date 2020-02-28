@@ -177,6 +177,8 @@
       <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
     <Compile Include="Data\Entities\Category.cs" />
+    <Compile Include="Data\Entities\Marka.cs" />
+    <Compile Include="Data\Entities\Model.cs" />
     <Compile Include="Data\Entities\SubCategory.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
